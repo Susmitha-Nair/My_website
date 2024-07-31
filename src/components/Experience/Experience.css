@@ -1,0 +1,51 @@
+.ExperienceSet{
+    margin-bottom: 20rem;
+    display: flex;
+    position: relative;
+   
+}
+
+.e-left{
+    margin-top: 8rem;
+    width: 75%;
+}
+
+.e-right{
+    margin-top: 8rem;
+  
+}
+
+.e-right>:nth-child(1){
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.e-right>:nth-child(3){
+    color: var(--gray);
+    font-size: 14px;
+    font-weight: 100px;
+}
+
+.e-blur{
+    background:  hsla(197, 85%, 39%, 0.43);
+    left: 75rem;
+    top: 30 rem;
+}
+
+.e-blur2{
+    background:  hsla(272, 48%, 65%, 0.4);
+    left: 10rem;
+    top: 30 rem;
+  
+}
+
+.e-block{
+    width: 50%;
+    position: relative;
+}
+
+.e-block > * {
+    position: absolute;
+}

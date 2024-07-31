@@ -1,0 +1,19 @@
+.FloatingDiv{
+    display:flex;
+    background: rgba(255, 255, 255, 0.284);
+    box-shadow: var(--boxShadow);
+    border-radius: 17px;
+    height: 5vh;
+    width: 105%;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.FloatingDiv>img{
+    transform: scale(90%);
+}
+
+.FloatingDiv>span{
+    font-family:  Georgia;
+    font-size: 14px;
+}

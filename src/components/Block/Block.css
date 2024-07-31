@@ -1,0 +1,27 @@
+.block{
+    width: 10rem;
+    height: 10rem;
+    position: absolute; 
+    display: flex;
+    cursor: pointer;
+    gap: 0.5rem;
+    align-items: center;
+    background: rgba(255,255,255,0.26) ;
+    border: 7px solid var(--orangeCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 150px;
+    padding: 10px;
+    
+}
+
+.block>:nth-child(1){
+    font-weight: bold;
+    font-size: 90px;
+    color: var(--orange);
+}
+
+.block>:nth-child(2){
+    color: var(--gray);
+    font-size: 16px;
+    text-align: center;
+}

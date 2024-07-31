@@ -1,0 +1,51 @@
+.Services{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    margin-top: 9rem;
+    margin-bottom: 25rem;
+}
+
+.Awesome{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.Awesome>:nth-child(1){
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.Awesome>:nth-child(2){
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.Awesome>:nth-child(4){
+    color: var(--gray);
+    font-size: 14px;
+    font-weight: 100px;
+    width: 50%;
+}
+.s-button{
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.cards{
+    width: 50%;
+    position: relative;
+}
+
+.cards > * {
+    position: absolute;
+}
+
+.s-blur2{
+    top: 48rem;
+    left: -10rem;
+    background: hsla(333, 54%, 84%, 0.512);
+}

@@ -1,0 +1,51 @@
+.publicationCard{
+    width: 13rem;
+    height: 13rem;
+    position: absolute; 
+    display: flex;
+    cursor: pointer;
+    gap: 0.5rem;
+    align-items: center;
+    background: rgba(255,255,255,0.26) ;
+    border: 7px solid var(--orangeCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 50px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.publicationCard>:nth-child(1){
+    font-size: 0.75rem;
+    color: var(--gray);
+
+}
+
+.publicationCard>:nth-child(2){
+    font-size: 1.25rem;
+    font-style: bold;
+    color: var(--orange);
+}
+
+.publicationCard>:nth-child(3){
+    font-size: 0.75rem;
+    color: var(--gray);
+    text-align: center;
+}
+.publicationCard>:nth-child(4){
+    font-size: 0.75rem;
+    color: var(--gray);
+    text-align: center;
+}
+
+.publicationCard span>:nth-child(1){
+    font-size: 0.75rem;
+    color: var(--gray);
+    text-align: center;
+}
+.p-download{
+    width: rem;
+    height: 2rem;
+    margin-top: 1rem;
+    font-size: 0.55rem;
+    
+}

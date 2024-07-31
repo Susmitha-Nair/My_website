@@ -1,0 +1,165 @@
+.intro{
+    display: flex;
+
+    margin-top: 10rem;
+    margin-bottom: 20rem;
+    gap: 15rem;
+}
+
+.i-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.i-right{
+    flex: 1;
+    position: relative;
+}
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+}
+.i-right>:nth-child(1){
+    transform: scale(0.69);
+    left: -5rem;
+    top: -3rem;
+}
+
+.i-right>:nth-child(2){
+    top: -0.6rem;
+    transform: scale(0.6);
+    left: -5rem;
+    top: -4.7rem;
+}
+
+.i-right>:nth-child(3){
+    transform: scale(0.95);
+    top: -6.5rem;
+}
+
+.i-right>:nth-child(4){
+    transform: scale(0.6);
+    left: -5.5rem;
+    top : -4.5rem;
+    rotate: 45deg;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.i-name{
+    display: flex;
+    flex-direction: column;
+}
+.i-name>:nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 1rem;
+}
+.i-name>:nth-child(2){
+    color: var(--orange);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(3){
+    font-weight: 100;
+    font-size: 14px;
+    color: var(--gray);
+   
+}
+
+.i-button{
+    width: 8rem;
+    height: 2rem;
+}
+
+.i-icons{
+    margin-top: 3rem;
+    display: flex;
+    gap: 0rem;
+}
+
+.i-icons>*{
+    transform: scale(0.5);
+}
+
+.i-icons>*:hover{
+    cursor: pointer;
+}
+
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: hsla(333, 52%, 48%, 0.495);
+    filter:blur(72px);
+    z-index: -9;
+    top:-10%;
+    left:6rem;
+}
+
+.blur2{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #7f25d4bc;
+    filter:blur(72px);
+    z-index: -9;
+    top:35%;
+    left:55rem;
+}
+
+.blur3{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #138ebfa5;
+    filter:blur(72px);
+    z-index: -9;
+    top:50%;
+    left:52rem;
+}
+
+.blur4{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #10cfa2a5;
+    filter:blur(72px);
+    z-index: -9;
+    top:45%;
+    left:43rem;
+}
+
+.blur5{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #aedd13c5;
+    filter:blur(72px);
+    z-index: -9;
+    top:30%;
+    left:40rem;
+}
+
+.blur6{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #f1424296;
+    filter:blur(72px);
+    z-index: -9;
+    top:20%;
+    left:45rem;
+}
